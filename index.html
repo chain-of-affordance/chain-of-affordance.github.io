@@ -24,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD</title>
+  <title>https://coavla.github.io</title>
   <link rel="icon" type="image/x-icon" href="static/images/eva.svg">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
@@ -223,7 +223,17 @@
 </head>
 <body>
   <section>
-
+    <div class="flex flex-col items-center justify-center">
+      <!-- 添加视频 -->
+      <div class="video-container">
+          <video class="video" controls autoplay loop>
+              <source src="static/videos/first_cvpr.mp4" type="video/mp4">
+              <!-- 如果浏览器不支持 MP4 格式，提供其他格式的备选方案 -->
+              <source src="your-video.webm" type="video/webm">
+              <source src="your-video.ogv" type="video/ogg">
+              <p>Your browser does not support HTML5 video.</p>
+          </video>
+      </div>
   <div class="flex flex-col items-center justify-center" >
     <div class="wrapper">
     <div class="text-container">
@@ -500,7 +510,8 @@
   <div class="container is-max-desktop" style="text-align: center;">
     <div class="hero-body">
       <img style="width: 80%;" src="static/images/real_result_coa.png" alt="teaser" />
-      <h2 class="subtitle has-text-centered">Quantitative results in real-world experiments. We report the average success rate across multiple tasks and the count of trainable parameters for all models.
+      <h2 class="subtitle has-text-centered">Our method achieved the best performance in both the in-distribution test setup
+        and under visual changes.
       </h2>
     </div>
     <!-- <div class="hero-body">
