@@ -219,6 +219,10 @@
         max-width: 80% !important;
     }
 
+    .author-name {
+        font-size: 1.2rem;  /* 你可以根据需要调整这个值 */
+    }
+
   </style>
 </head>
 <body>
@@ -252,19 +256,23 @@
             <h1 class="title is-1 publication-title" style="display: flex; align-items: center;">
               <span style="margin-left: 1rem;">Improving Vision-Language-Action Models via Chain-of-Affordance</span>
             </h1>
-              <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="px-2"> Jinming Li*<sup>,1,2</sup> </span>
-              <span class="px-2"> Yichen Zhu*<sup>,1</sup> </span>
-              <span class="px-2">Zhibin Tang<sup></sup></span>
-              <span class="px-2"> Junjie Wen<sup>1,2</sup> </span>
-              <span class="px-2"> Minjie Zhu<sup>1,3</sup> </span>
-              <span class="px-2"> Xiaoyu Liu<sup>1,2</sup> </span>
-              <span class="px-2"> Chengmeng Li<sup>1,2</sup> </span>
-              <span class="px-2">Ran Cheng<sup>1</sup></span>
-              <span class="px-2">Yaxin Peng<sup>2</sup></span>
-              <span class="px-2">Feifei Feng<sup>1</sup></span>
+              <div class="authors-list">
+                  <div class="author-row">
+                      <span class="px-2 author-name"> Jinming Li*<sup>,1,2</sup> </span>
+                      <span class="px-2 author-name"> Yichen Zhu*<sup>,1,†</sup> </span>
+                      <span class="px-2 author-name">Zhibin Tang<sup></sup></span>
+                      <span class="px-2 author-name"> Junjie Wen<sup>1,2</sup> </span>
+                      <span class="px-2 author-name"> Minjie Zhu<sup>1,3</sup> </span>
+                      <span class="px-2 author-name"> Xiaoyu Liu<sup>1,2</sup> </span>
                   </div>
+                  <div class="author-row">
+
+                      <span class="px-2 author-name"> Chengmeng Li<sup>1,2</sup> </span>
+                      <span class="px-2 author-name">Ran Cheng<sup>1</sup></span>
+                      <span class="px-2 author-name">Yaxin Peng<sup>2</sup></span>
+                      <span class="px-2 author-name">Feifei Feng<sup>1</sup></span>
+                  </div>
+              </div>
 
                   <div class="is-size-5 publication-authors">
                     <span style="color: rgb(145, 143, 143);" class="px-4">1. Midea Group</span>
@@ -272,6 +280,8 @@
                     <span style="color: rgb(145, 143, 143);" class="px-4">3.East China Normal University</span>
                     <br>
                     <span style="color: rgb(145, 143, 143);" class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution,listed in alphabetical order.This work was done during Jinming Li's internship in Midea Group.</small></span>
+                    <span style="color: rgb(145, 143, 143);" class="eql-cntrb"><small><br><sup>†</sup>Indicates corresponding author.</small></span>
+
                   </div>
 
                   <div class="column has-text-centered">
@@ -671,13 +681,7 @@
       journal={arXiv preprint arXiv:None},
       year={2024}
     },
-
-@article{wen2024tinyvla,
-      title={TinyVLA: Towards Fast, Data-Efficient Vision-Language-Action Models for Robotic Manipulation},
-      author={Wen, Junjie and Zhu, Yichen and Li, Jinming and Zhu, Minjie and Wu, Kun and Xu, Zhiyuan and Cheng, Ran and Shen, Chaomin and Peng, Yaxin and Feng, Feifei and others},
-      journal={arXiv preprint arXiv:2409.12514},
-      year={2024}
-    }</code></pre>
+</code></pre>
   </div>
 </section>
 
